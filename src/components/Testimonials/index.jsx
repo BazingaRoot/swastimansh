@@ -1,13 +1,16 @@
 import React from "react";
 // import img from "../assets/images/contact-img.svg";
+import bg from "../../assets/images/testi_back.png"
 
 function Testimonials() {
   return (
     <>
-      <section class="bg-white">
+      <section class=" bg-gradient-to-r from-green-300 to-blue-400"
+      // style={{backgroundImage: `url(${bg})`}}
+      >
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <h2 class="text-center text-4xl font-bold tracking-tight sm:text-5xl">
-      Read trusted reviews from our customers
+      What our Clients say?
     </h2>
 
     <div class="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">

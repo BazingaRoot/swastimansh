@@ -34,18 +34,18 @@ function Projects() {
       description: "Design & Development",
       img: img2,
     },
-    {
-      id: 5,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img3,
-    },
-    {
-      id: 6,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img1,
-    },
+    // {
+    //   id: 5,
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   img: img3,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   img: img1,
+    // },
   ];
 
   return (

@@ -14,7 +14,7 @@ function About() {
             <h2 className="text-3xl font-bold sm:text-4xl">About Us</h2>
 
             <p className="mt-4 text-gray-300">
-            Dr.Juhi is a skilled and compassionate physiotherapist dedicated to helping her clients achieve their physical health goals. With years of experience and a commitment to personalized care, she strives to provide the best possible treatment for each individual's unique needs. Let us help you move better and feel better, starting today.
+            Dr.Juhi is a skilled and compassionate physiotherapist dedicated to helping her clients achieve their physical health goals. With years of experience and a commitment to personalized care, she strives to provide the best possible treatment for each individual&apos;s unique needs. Let us help you move better and feel better, starting today.
             </p>
           </div>
 

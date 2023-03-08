@@ -12,76 +12,77 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Business Startup",
-      description: "Design & Development",
       img: img1,
     },
     {
       id: 2,
-      title: "Business Startup",
-      description: "Design & Development",
       img: img2,
     },
     {
       id: 3,
-      title: "Business Startup",
-      description: "Design & Development",
       img: img3,
     },
     {
       id: 4,
-      title: "Business Startup",
-      description: "Design & Development",
       img: img2,
     },
-    // {
-    //   id: 5,
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   img: img3,
-    // },
-    // {
-    //   id: 6,
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   img: img1,
-    // },
   ];
 
   return (
     <>
       <div id="projects" className="projects  bg-[#171717] text-white py-10">
-        <h1 className="text-center text-4xl font-bold py-6">Projects</h1>
+        <h1 className="text-center text-4xl font-bold py-6">Services</h1>
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
-          lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
-          cupiditate! Molestiae placeat architecto nihil obcaecati illum minima
-          incidunt dolores? Officia consectetur optio non totam cum eos soluta
-          ipsa et quod.
+        Comprehensive Rehabilitation Services: Regain Strength, Mobility, and Function with Our Physiotherapy
         </p>
         <div className="flex justify-center items-center gap-4 mt-12 mb-2 ">
           <button
             onClick={() => setDurum(1)}
-            className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
+            className={`text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px] ${
               durum == 1 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
             }`}
           >
-            Projects
+            Physiotherapy Consultation
           </button>
           <button
             onClick={() => setDurum(2)}
-            className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
+            className={`text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px] ${
               durum === 2 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
             }  `}
           >
-            Text-1
+            Maternity Fitness Sessions
           </button>
           <button
             onClick={() => setDurum(3)}
-            className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px]  ${
+            className={` text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px]  ${
               durum === 3 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
             }`}
           >
-            Text-2
+            General Fitness Sessions
+          </button>
+          <button
+            onClick={() => setDurum(4)}
+            className={` text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px]  ${
+              durum === 4 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
+            }`}
+          >
+            Face Yoga sessions
+          </button>
+          <button
+            onClick={() => setDurum(5)}
+            className={` text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px]  ${
+              durum === 5 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
+            }`}
+          >
+            Post COVID Rehabilitation
+          </button>
+          <button
+            onClick={() => setDurum(6)}
+            className={` text-[16px] border-1  bg-[#171717] rounded-[6px] p-[5px]  ${
+              durum === 6 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
+            }`}
+          >
+            Diet & Nutrition
           </button>
         </div>
         <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
@@ -115,50 +116,3 @@ function Projects() {
 
 export default Projects;
 
-// import React from 'react'
-// import { Card, Col, Row } from 'antd';
-// const { Meta } = Card;
-
-// function Projects() {
-//   return (
-    
-//     <Row gutter={16}>
-//     <Col span={8}>
-//       <Card
-//         hoverable
-//         style={{
-//           width: 240,
-//         }}
-//         cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-//       >
-//         <Meta title="Europe Street beat" description="www.instagram.com" />
-//       </Card>
-//     </Col>
-//     <Col span={8}>
-//       <Card
-//         hoverable
-//         style={{
-//           width: 240,
-//         }}
-//         cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-//       >
-//         <Meta title="Europe Street beat" description="www.instagram.com" />
-//       </Card>
-//     </Col>
-//     <Col span={8}>
-//       <Card
-//         hoverable
-//         style={{
-//           width: 240,
-//         }}
-//         cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
-//       >
-//         <Meta title="Europe Street beat" description="www.instagram.com" />
-//       </Card>
-//     </Col>
-    
-//     </Row>
-//   )
-// }
-
-// export default Projects

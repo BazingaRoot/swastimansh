@@ -65,6 +65,15 @@ swiper {
   width: 100%
 }
 
+.border-1 {
+  border-width: 1px;
+}
+
+.testimonial-custom {
+  max-height: 300px;
+    overflow-y: scroll;
+}
+
 @keyframes astronout1 {
   0% {
     left: 70%;

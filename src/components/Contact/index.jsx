@@ -4,17 +4,17 @@ import React from "react";
 function Contact() {
   return (
     <>
-    <section class=" bg-white relative flex flex-wrap lg:h-screen lg:items-center">
-      <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
-        <div class="mx-auto max-w-lg text-center">
-          <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+    <section id="contact" className=" bg-white relative flex flex-wrap lg:h-screen lg:items-center">
+      <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-lg text-center">
+          <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
 
-          <p class="mt-4 text-gray-500">
+          <p className="mt-4 text-gray-500">
           Thank you again for considering <b>SWASTIMANSH</b> as your trusted partner in health. We look forward to hearing from you soon!
           </p>
         </div>
 
-        <form action="" class="mx-auto mt-8 mb-0 max-w-md space-y-4">
+        <form action="" className="mx-auto mt-8 mb-0 max-w-md space-y-4">
         <div className="flex gap-4 py-2  ">
               <input
                 className=" h-14 rounded-2xl  border-[1px] pl-4  "
@@ -46,10 +46,10 @@ function Contact() {
               placeholder="Message"
             ></textarea>
 
-          <div class="flex items-center justify-between">
+          <div className="flex items-center justify-between">
             <button
               type="submit"
-              class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+              className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
             >
               Connect
             </button>
@@ -57,11 +57,11 @@ function Contact() {
         </form>
       </div>
 
-      <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+      <div className="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
         <img
           alt="Welcome"
           src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-          class="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
     </section>

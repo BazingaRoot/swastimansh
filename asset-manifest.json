@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.137829db.css",
+    "main.js": "./static/js/main.cf28f992.js",
+    "static/js/787.8a155101.chunk.js": "./static/js/787.8a155101.chunk.js",
+    "static/media/homelander.jpg": "./static/media/homelander.6293f0e78cd7b0a8ae60.jpg",
+    "static/media/project-img1.png": "./static/media/project-img1.d593db3f12901bc685c2.png",
+    "index.html": "./index.html",
+    "main.137829db.css.map": "./static/css/main.137829db.css.map",
+    "main.cf28f992.js.map": "./static/js/main.cf28f992.js.map",
+    "787.8a155101.chunk.js.map": "./static/js/787.8a155101.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137829db.css",
+    "static/js/main.cf28f992.js"
+  ]
+}

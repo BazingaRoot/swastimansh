@@ -1,6 +1,4 @@
 import React from "react";
-// import img from "../assets/images/contact-img.svg";
-import bg from "../../assets/images/testi_back.png"
 
 function SvgFile() {
   return <svg
@@ -62,7 +60,7 @@ function Testimonials() {
           </div>
         </div>
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-        My Journey with Dr Juhi is just like, the passenger who knows the destination but don't know the correct way to it. We face different situations during our pregnancy, her guidance made me calm and relaxed at that time. Me and my husband started bonding with the baby during Couple sessions. Exercises helped to tackle my mood swings, cramps and other health issues. I would recommend every pregnant mommy to join "Swastimansh Maternity Fitness Sessions". I am so very thankful to Juhi di for being with me in this beautiful phase of my life.
+        My Journey with Dr Juhi is just like, the passenger who knows the destination but don`&apos;t know the correct way to it. We face different situations during our pregnancy, her guidance made me calm and relaxed at that time. Me and my husband started bonding with the baby during Couple sessions. Exercises helped to tackle my mood swings, cramps and other health issues. I would recommend every pregnant mommy to join &quot;Swastimansh Maternity Fitness Sessions&quot;. I am so very thankful to Juhi di for being with me in this beautiful phase of my life.
         </p>
       </blockquote>
 
@@ -104,7 +102,7 @@ my friends and family
         </div>
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
         This review goes to my dear Physio and fitness coach - Juhi
-I started my Pregnancy journey in Aug 2020. It was difficult to maintain positivity with ongoing Pandemic situations, but as my bestie suggested, I consulted Juhi. She professionally checked all my reports and we started Maternity Fitness session. Juhi guided me with right exercise for backpain and meditation techniques to remain calm. Her expertise in combination of Yoga, Aerobics, Meditation and physio exercises, her focus, positive and caregiving attitude to name a few, are her core strengths and make her stand apart. She also helps with positive affirmations for baby and trust me it work wonders. In a very short time, Juhi has become my family's physio instructor. I strongly recommend joining her sessions for amazing results for yourselves and your family. Thank you Juhi for making my 2nd pregnancy journey so beautiful. I will always cherish these moments!!
+I started my Pregnancy journey in Aug 2020. It was difficult to maintain positivity with ongoing Pandemic situations, but as my bestie suggested, I consulted Juhi. She professionally checked all my reports and we started Maternity Fitness session. Juhi guided me with right exercise for backpain and meditation techniques to remain calm. Her expertise in combination of Yoga, Aerobics, Meditation and physio exercises, her focus, positive and caregiving attitude to name a few, are her core strengths and make her stand apart. She also helps with positive affirmations for baby and trust me it work wonders. In a very short time, Juhi has become my family&apos;s physio instructor. I strongly recommend joining her sessions for amazing results for yourselves and your family. Thank you Juhi for making my 2nd pregnancy journey so beautiful. I will always cherish these moments!!
         </p>
       </blockquote>
       <blockquote className="rounded-lg bg-gray-100 p-8 testimonial-custom">
@@ -122,7 +120,7 @@ I started my Pregnancy journey in Aug 2020. It was difficult to maintain positiv
           </div>
         </div>
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-        Thanks a lot to Dr.Juhi & "Swastimansh Physiotherapy & fitness clinic" for all your guidance on maternity fitness,which made my 1st pregnancy journey smooth, healthy and happy.
+        Thanks a lot to Dr.Juhi & &quot;Swastimansh Physiotherapy & fitness clinic&quot; for all your guidance on maternity fitness,which made my 1st pregnancy journey smooth, healthy and happy.
 I am grateful to have you as my long distance maternity coach during lockdown.
 Different types of exercises increased my stamina, helping me do all household activities and office work during lockdown period. You encouraged me to exercise for 9 months which made my baby very active, flexible and healthy. I wish you all the very best and great
 success.
@@ -153,27 +151,6 @@ Make Dr. Juhi your fitness guru & trust me, she will model you to be a better, f
   </div>
 </section>
 
-{/* <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.swiper-container', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 32,
-      centeredSlides: true,
-      autoplay: {
-        delay: 8000,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1.5,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      },
-    })
-  })
-</script> */}
 
     </>
   );

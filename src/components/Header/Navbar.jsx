@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from "react";
 import "../../style.css";
 import logo1 from "../../assets/images/letter-s.png"
 
 function Navbar() {
-  const [durum, setDurum] = useState(true);
-  console.log(durum);
 
   window.onscroll = function () {
     scrollFunction();
@@ -115,11 +112,11 @@ function Navbar() {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M4 6h16M4 12h16M4 18h16"
                   />
                 </svg>
@@ -129,55 +126,6 @@ function Navbar() {
         </div>
       </div>
     </header>
-
-      {/* <div className="navbarcon flex justify-between items-center lg:px-20 py-2 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl font-bold hidden md:visible">SWASTIMANSH</h1>
-        <img className='width-50 ast-img' src={logo1} alt="" />
-
-        <nav
-          className={` flex justify-center items-center gap-x-10 hidden lg:visible ${
-            durum && "lg:hidden"
-          } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
-        >
-          <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
-            <li className="bla">
-              <AnchorLink href="#home">Home</AnchorLink>
-            </li>
-            
-            <li className="bla">
-              <AnchorLink href="#projects">Projects</AnchorLink>
-            </li>
-            <li className="bla">
-              <AnchorLink href="#skills">Skills</AnchorLink>
-            </li>
-          </ul>
-
-          <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <a href="https://twitter.com/reayhs" target="_blank" rel="noreferrer">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-
-            <a href="https://www.instagram.com/iburakz/" target="_blank" rel="noreferrer">
-              <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-            <a
-              href="https://github.com/Reayhs/react-tailwind-portfolio"
-              target="_blank" rel="noreferrer"
-            >
-              <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-          </div>
-          <div className="btn">
-            <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
-              Connect
-            </button>
-          </div>
-        </nav>
-        <i
-          onClick={() => setDurum(!durum)}
-          className="fa-solid fa-bars hidden lg:block text-2xl cursor-pointer"
-        ></i>
-      </div> */}
     </>
   );
 }

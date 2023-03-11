@@ -1,4 +1,10 @@
 import React from "react";
+import mom1 from "../../assets/images/mom1.jpg"
+import mom2 from "../../assets/images/mom2.jpg"
+import mom3 from "../../assets/images/mom3.jpg"
+import mom4 from "../../assets/images/mom4.jpg"
+import mom5 from "../../assets/images/mom5.jpg"
+import mom6 from "../../assets/images/mom6.jpg"
 
 function SvgFile() {
   return <svg
@@ -30,8 +36,8 @@ function Testimonials() {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom2}
+            className="h-20 w-20  rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">
@@ -49,8 +55,8 @@ function Testimonials() {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom4}
+            className="h-20 w-20  rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">
@@ -68,8 +74,8 @@ function Testimonials() {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom1}
+            className="h-20 w-20 rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">
@@ -90,8 +96,8 @@ my friends and family
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom5}
+            className="h-20 w-20  rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">
@@ -109,29 +115,26 @@ I started my Pregnancy journey in Aug 2020. It was difficult to maintain positiv
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom6}
+            className="h-20 w-20  rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">
             {stars.map((i) => <SvgFile key={i} />)}
             </div>
-            <p className="mt-1 text-lg font-medium text-gray-700">Mrs.Harshada Deshpande & Baby Aadish.</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Mrs.Manisha Dorge</p>
           </div>
         </div>
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-        Thanks a lot to Dr.Juhi & &quot;Swastimansh Physiotherapy & fitness clinic&quot; for all your guidance on maternity fitness,which made my 1st pregnancy journey smooth, healthy and happy.
-I am grateful to have you as my long distance maternity coach during lockdown.
-Different types of exercises increased my stamina, helping me do all household activities and office work during lockdown period. You encouraged me to exercise for 9 months which made my baby very active, flexible and healthy. I wish you all the very best and great
-success.
+        Thank you Dr. Juhi for your guidance on exercise, fitness and diet during pregnancy. You made my first maternity journey healthy and happy. I am very glad to have you as my Physio & Maternity Coach. You guided me a lot for entire 9 months and during delivery as well. Yoga, councelling and other exercises during pregnancy plays a vital role and I truly experienced it. Thank you Swastimansh & Dr. Juhi from Shauryajeet (my son) & me as well IP I wish you a great success ahead... 
         </p>
       </blockquote>
       <blockquote className="rounded-lg bg-gray-100 p-8 testimonial-custom">
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className="h-16 w-16 rounded-full object-cover"
+            src={mom3}
+            className="h-20 w-20  rounded-full object-cover"
           />
           <div>
             <div className="flex gap-0.5 text-green-500">

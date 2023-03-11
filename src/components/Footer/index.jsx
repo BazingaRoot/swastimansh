@@ -6,14 +6,14 @@ function Footer() {
   return (
    <>
    <footer aria-label="Site Footer" className="bg-gray-100">
+   {/* <a href="https://www.flaticon.com/free-icons/letter-s" title="Letter s icons">Letter s icons created by shohanur.rahman13 - Flaticon</a> */}
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
         <img className='width-50 ast-img' src={logo1} alt="" />
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-          consequuntur amet culpa cum itaque neque.
+        Thank you for visiting SWASIMANSH. We are dedicated to providing personalized and effective treatment to help you achieve your health and wellness goals.
         </p>
 
         <nav aria-label="Footer Nav" className="mt-12">

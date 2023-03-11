@@ -1,17 +1,32 @@
 {
   "files": {
-    "main.css": "./static/css/main.137829db.css",
-    "main.js": "./static/js/main.cf28f992.js",
+    "main.css": "./static/css/main.df26d8e6.css",
+    "main.js": "./static/js/main.65c154a6.js",
     "static/js/787.8a155101.chunk.js": "./static/js/787.8a155101.chunk.js",
+    "static/media/vid3.mp4": "./static/media/vid3.6fe4aea336e5d34a4cfe.mp4",
+    "static/media/vid2.mp4": "./static/media/vid2.3a4525f8e9e4b8bffbd2.mp4",
+    "static/media/vid1.mp4": "./static/media/vid1.e4c3c88ba0449d5053d9.mp4",
     "static/media/homelander.jpg": "./static/media/homelander.6293f0e78cd7b0a8ae60.jpg",
-    "static/media/project-img1.png": "./static/media/project-img1.d593db3f12901bc685c2.png",
+    "static/media/mom3.jpg": "./static/media/mom3.f8257764166f3ab34885.jpg",
+    "static/media/contact-img.jpg": "./static/media/contact-img.6842c343651bb642ff67.jpg",
+    "static/media/physio6.jpg": "./static/media/physio6.c5bddf86af6801fb1c45.jpg",
+    "static/media/physio5.jpg": "./static/media/physio5.65c8be6f9dc3b90ba21c.jpg",
+    "static/media/physio2.jpg": "./static/media/physio2.36a40fdc11cdbcdf40f2.jpg",
+    "static/media/mom5.jpg": "./static/media/mom5.3a6740a87217c4175f1e.jpg",
+    "static/media/physio4.jpg": "./static/media/physio4.f5ba0ea5852940222718.jpg",
+    "static/media/physio1.jpg": "./static/media/physio1.b39bf8bb332944e250e6.jpg",
+    "static/media/mom4.jpg": "./static/media/mom4.4939790e40ddd2424c13.jpg",
+    "static/media/physio3.jpg": "./static/media/physio3.611d76c22cbc9b0a9652.jpg",
+    "static/media/mom6.jpg": "./static/media/mom6.ebb9a6a91e3cadaf84c3.jpg",
+    "static/media/mom2.jpg": "./static/media/mom2.5cef8d3c95fdf6d39de2.jpg",
+    "static/media/mom1.jpg": "./static/media/mom1.4beb202dae79e8b2b042.jpg",
     "index.html": "./index.html",
-    "main.137829db.css.map": "./static/css/main.137829db.css.map",
-    "main.cf28f992.js.map": "./static/js/main.cf28f992.js.map",
+    "main.df26d8e6.css.map": "./static/css/main.df26d8e6.css.map",
+    "main.65c154a6.js.map": "./static/js/main.65c154a6.js.map",
     "787.8a155101.chunk.js.map": "./static/js/787.8a155101.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.137829db.css",
-    "static/js/main.cf28f992.js"
+    "static/css/main.df26d8e6.css",
+    "static/js/main.65c154a6.js"
   ]
 }

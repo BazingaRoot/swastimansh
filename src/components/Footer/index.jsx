@@ -1,11 +1,11 @@
 import React from 'react'
 import logo1 from "../../assets/images/letter-s.png"
-
+import { handleClickScroll } from './../../utils'
 
 function Footer() {
   return (
    <>
-   <footer aria-label="Site Footer" className="bg-gray-100">
+   <footer aria-label="Site Footer" className="bg-gray-900 text-white">
    {/* <a href="https://www.flaticon.com/free-icons/letter-s" title="Letter s icons">Letter s icons created by shohanur.rahman13 - Flaticon</a> */}
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
@@ -18,36 +18,52 @@ function Footer() {
 
         <nav aria-label="Footer Nav" className="mt-12">
           <ul className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-                About
-              </a>
-            </li>
+            <li onClick={() => handleClickScroll('about')}>
+                  <button
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    About Me
+                  </button>
+                </li>
 
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Services
-              </a>
-            </li>
+                <li onClick={() => handleClickScroll('projects')}>
+                  <button
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    Services
+                  </button>
+                </li>
 
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Projects
-              </a>
-            </li>
+                <li onClick={() => handleClickScroll('testi')}>
+                  <button
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    Testimonials
+                  </button>
+                </li>
 
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Blog
-              </a>
-            </li>
+                <li onClick={() => handleClickScroll('contact')}>
+                  <button
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    Contact Us
+                  </button>
+                </li>
+                
+                <li onClick={() => handleClickScroll('blog')}>
+                  <button
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    Blog
+                  </button>
+                </li>
           </ul>
         </nav>
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li>
             <a
-              href="/"
+              href="https://www.facebook.com/profile.php?id=100064054718766&mibextid=ZbWKwL"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-gray-700/75"
@@ -55,7 +71,7 @@ function Footer() {
               <span className="sr-only">Facebook</span>
               <svg
                 className="h-6 w-6"
-                fill="currentColor"
+                fill="#aacde3"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -70,7 +86,7 @@ function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://www.instagram.com/swastimansh/?igshid=ZDdkNTZiNTM%3D"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-gray-700/75"
@@ -78,7 +94,7 @@ function Footer() {
               <span className="sr-only">Instagram</span>
               <svg
                 className="h-6 w-6"
-                fill="currentColor"
+                fill="#aacde3"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -101,7 +117,7 @@ function Footer() {
               <span className="sr-only">Twitter</span>
               <svg
                 className="h-6 w-6"
-                fill="currentColor"
+                fill="#aacde3"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >

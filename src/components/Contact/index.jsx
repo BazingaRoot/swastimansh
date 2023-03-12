@@ -61,6 +61,7 @@ function Contact() {
         <img
           alt="Welcome"
           src={imgs}
+          style={{ maxWidth: '40rem' }}
           className="absolute inset-0 object-cover"
         />
       </div>
